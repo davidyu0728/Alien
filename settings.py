@@ -14,5 +14,5 @@ class Settings():
         self.bullet_allowed = 5
         
         self.alien_speed_factor = 1
-        self.fleet_drop_speed = 10 # for game test set to 100, normal is 10
+        self.fleet_drop_speed = 1000 # for game test set to 100, normal is 10
         self.fleet_direction = 1
