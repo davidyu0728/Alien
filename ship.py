@@ -1,4 +1,6 @@
 import pygame
+import sys
+import pygame
 
 class Ship():
 
