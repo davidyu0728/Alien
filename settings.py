@@ -5,6 +5,7 @@ class Settings():
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3 # limited life
 
         self.bullet_speed_factor = 3
         self.bullet_width = 1200 # for game test, after test reset to 3
@@ -13,5 +14,5 @@ class Settings():
         self.bullet_allowed = 5
         
         self.alien_speed_factor = 1
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 10 # for game test set to 100, normal is 10
         self.fleet_direction = 1
